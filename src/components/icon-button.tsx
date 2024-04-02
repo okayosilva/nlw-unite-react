@@ -6,7 +6,8 @@ const buttonIcon = tv({
   variants: {
     variant: {
       primary: 'bg-white/10',
-      transparent: 'bg-red/20',
+      transparent: 'bg-black/20',
+      disabled: 'opacity-50 cursor-not-allowed',
     },
   },
   defaultVariants: {
