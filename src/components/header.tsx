@@ -1,4 +1,5 @@
 import LogoSvg from '../assets/logo.svg'
+import { NavLink } from './nav-link'
 
 export function Header() {
   return (
@@ -6,12 +7,8 @@ export function Header() {
       <img src={LogoSvg} alt="Logo pass in" />
 
       <nav className="flex gap-5">
-        <a href="" className="text-sm font-medium text-zinc-300">
-          Eventos
-        </a>
-        <a href="" className="text-sm font-medium">
-          Participantes
-        </a>
+        <NavLink href="/a">Eventos</NavLink>
+        <NavLink isActive>Participantes</NavLink>
       </nav>
     </div>
   )
