@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+Status: Completo 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Pass In
+O NLW Unite React é um dashboard que visa controlar a data de inscrição e o check-in dos usuários da plataforma, buscando essas informações em uma API em Node.
 
-Currently, two official plugins are available:
+## Funcionalidades:
+ * Home com uma tabela listando os usuários
+ * Paginação de usuários
+ * Busca de usuários
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<hr/>
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+ * Next
+ * TailwindCSS
+ * Lucide React
+ * prettier plugin tailwindcss
+ * typescript
+ * tailwind variants
 
-- Configure the top-level `parserOptions` property like this:
+<hr/>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+ ## Demonstração:
+ 
+<div>
+    <img src="./public/project.gif" />
+</div>
+
+## Instalação
+  * Faça um clone do repositório do projeto no GitHub.
+  * Navegue até o diretório do projeto.
+  * Execute o seguinte comando para instalar as dependências:
+
+```
+$ pnpm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Running the project
+```
+$ pnpm run dev
+```
